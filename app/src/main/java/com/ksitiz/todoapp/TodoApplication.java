@@ -13,6 +13,7 @@ public class TodoApplication extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
+        //hello
 
         applicationComponent = DaggerApplicationComponent.builder()
                 .applicationModule(new ApplicationModule(getApplicationContext()))
